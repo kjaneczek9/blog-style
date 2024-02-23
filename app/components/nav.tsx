@@ -17,29 +17,18 @@ const navItems = {
 
 export function Navbar() {
   return (
-    <aside className="-ml-[8px] mb-16 tracking-tight">
-      <div className="lg:sticky lg:top-20">
-        <nav
-          className="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
-          id="nav"
-        >
-          <div className="flex flex-row space-x-0 pr-10 w-full">
-            {Object.entries(navItems).map(([path, { name }]) => {
-              return (
-                <Link
-                  key={path}
-                  href={path}
-                  className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 w-full text-lg font-bold"
-                  // Added text-lg for bigger text and font-bold for bold text
-                  // Added shadow-lg for shadow behind the text
-                >
-                  {name}
-                </Link>
-              );
-            })}
-          </div>
-        </nav>
-      </div>
-    </aside>
+    <div className="z-100 flex fixed top-0 w-full h-[70px] no-underline bg-#5e5959">
+      {Object.entries(navItems).map(([path, { name }]) => {
+        return (
+          <Link
+            key={path}
+            href={path}
+            className="transition-all items-center justify-center hover:text-neutral-800 dark:hover:text-neutral-200 m-auto text-lg font-bold"
+          >
+            {name}
+          </Link>
+        );
+      })}
+  </div>
   );
 }

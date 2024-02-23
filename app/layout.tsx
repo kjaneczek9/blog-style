@@ -5,20 +5,20 @@ import { GeistMono } from 'geist/font/mono';
 import { Navbar } from './components/nav';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
-import { SandpackCSS } from './blog/[slug]/sandpack';
+import { SandpackCSS } from './gallery/[slug]/sandpack';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://leerob.io'),
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Celeste Bernstein',
+    template: '%s | Celeste Bernstein',
   },
   description: 'Developer, writer, and creator.',
   openGraph: {
-    title: 'Lee Robinson',
+    title: 'Celeste Bernstein',
     description: 'Developer, writer, and creator.',
     url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    siteName: 'Celeste Bernstein',
     locale: 'en_US',
     type: 'website',
   },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Lee Robinson',
+    title: 'Celeste Bernstein',
     card: 'summary_large_image',
   },
   verification: {
@@ -66,8 +66,6 @@ export default function RootLayout({
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
           {children}
-          <Analytics />
-          <SpeedInsights />
         </main>
       </body>
     </html>

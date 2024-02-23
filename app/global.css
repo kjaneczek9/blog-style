@@ -2,9 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.page-wrapper {
+  margin: 20px;
+  position: relative;
+  background-color: #FFC0CB
+}
+
+background-color {
+  color: pink
+}
+
 ::selection {
-  background-color: #47a3f3;
-  color: #fefefe;
+  background-color: #e847f3d4;
+  color: #cfe50e;
 }
 
 :root {

@@ -9,13 +9,8 @@ export default {
         sans: ['var(--font-geist-sans)'],
         mono: ['var(--font-geist-mono)'],
       },
-      typography: {
-        quoteless: {
-          css: {
-            'blockquote p:first-of-type::before': { content: 'none' },
-            'blockquote p:first-of-type::after': { content: 'none' },
-          },
-        },
+      colors: {
+        pink: 'rgb(255, 105, 180)', // RGB values for pink color
       },
     },
   },
@@ -23,4 +18,4 @@ export default {
     hoverOnlyWhenSupported: true,
   },
   plugins: [typography],
-} satisfies Config;
+} as Config;

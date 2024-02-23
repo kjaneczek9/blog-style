@@ -7,7 +7,7 @@ const navItems = {
   '/art': {
     name: 'My Art',
   },
-  '/blog': {
+  '/gallery': {
     name: 'Gallery',
   },
   '/contact': {
@@ -29,7 +29,9 @@ export function Navbar() {
                 <Link
                   key={path}
                   href={path}
-                  className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 w-full"
+                  className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 w-full text-lg font-bold"
+                  // Added text-lg for bigger text and font-bold for bold text
+                  // Added shadow-lg for shadow behind the text
                 >
                   {name}
                 </Link>

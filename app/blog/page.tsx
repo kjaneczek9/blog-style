@@ -15,9 +15,9 @@ export default function BlogPage() {
   return (
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">
-        read my blog
+        Gallery
       </h1>
-      {allBlogs
+      {/* {allBlogs
         .sort((a, b) => {
           if (
             new Date(a.metadata.publishedAt) > new Date(b.metadata.publishedAt)
@@ -36,12 +36,9 @@ export default function BlogPage() {
               <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
                 {post.metadata.title}
               </p>
-              <Suspense fallback={<p className="h-6" />}>
-                <Views slug={post.slug} />
-              </Suspense>
             </div>
           </Link>
-        ))}
+        ))} */}
     </section>
   );
 }

@@ -9,8 +9,12 @@ body, html {
   width: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   background-color: white;
+}
+
+.custom-color {
+  background-color: #ff04a3;
 }
 
 main {
@@ -19,11 +23,24 @@ main {
 
 .page-wrapper {
   position: relative;
-  background-color: #FFC0CB;
+  background-image: linear-gradient(to bottom, rgb(253, 230, 138), rgb(255, 249, 180)); /* Gradient from yellow to white */
   min-height: 100vh;
+  margin: 10px;
 }
+
 
 ::selection {
   background-color: #e847f3d4;
   color: #cfe50e;
+}
+
+@font-face {
+  font-family: 'Sparky';
+  src: url('/Sparky.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'CustomFont'; /* Apply custom font to h1, fallback to system sans-serif font */
 }

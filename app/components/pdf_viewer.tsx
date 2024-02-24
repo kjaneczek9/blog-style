@@ -12,7 +12,7 @@ interface ComponentProps {
           <img src={thumbnailPath} alt="English Resume" />
   
           {/* Gray overlay */}
-          <div className="absolute inset-0 bg-gray-500 opacity-5 rounded-md"></div>
+          <div className="absolute inset-0 bg-gray-500 opacity-10 rounded-md"></div>
   
           {/* Anchor tag for clickable effect */}
           <a href={pdfPath} target="_blank" rel="noopener noreferrer" className="absolute inset-0 flex items-center justify-center">

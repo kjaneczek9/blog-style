@@ -1,6 +1,6 @@
 export default function Page() {
   return (
-<div className="page-wrapper">
+<div className="page-wrapper-home">
     <section className="flex justify-center items-center relative mb-[40]">
       <div className="flex flex-col justify-center items-center relative">
         {/* Blob */}

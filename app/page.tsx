@@ -1,5 +1,3 @@
-import { MdPlace } from 'react-icons/md';
-
 export default function Page() {
   return (
 <div className="page-wrapper">

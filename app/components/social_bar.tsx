@@ -6,8 +6,8 @@ const Component: React.FC = () => {
     <div style={{ width: '300px' }}>
       {/* Container for icons with flexbox */}
       <div className="flex items-center">
-      <Icon thumbnailPath='/linkedin.png' link='https://www.linkedin.com' style={{ marginRight: '3px' }} />
-      <Icon thumbnailPath='/email.png' link='https://www.google.com' style={{ marginRight: '3px' }} />
+      <Icon thumbnailPath='/linkedin.png' link='https://www.linkedin.com'/>
+      <Icon thumbnailPath='/email.png' link='https://www.google.com' />
       <Icon thumbnailPath='/linkedin.png' link='https://www.linkedin.com' />
       </div>
     </div>

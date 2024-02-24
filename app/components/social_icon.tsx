@@ -8,11 +8,11 @@ interface ComponentProps {
 const Component: React.FC<ComponentProps> = ({ thumbnailPath, link }) => {
   return (
     <div>
-      <div className="relative w-full aspect-video overflow-hidden rounded-t-lg">
+      <div className="relative w-full aspect-video rounded-t-lg">
         {/* Anchor tag for clickable effect */}
         <a href={link} target="_blank" rel="noopener noreferrer">
           {/* Thumbnail image */}
-          <img src={thumbnailPath} alt={link} style={{ maxWidth: '5%', height: 'auto' }} className="border-1 border-gray-300"/>
+          <img src={thumbnailPath} alt={link} style={{ maxWidth: '20px', maxHeight: '30px' }} className="ml-5"/>
         </a>
       </div>
     </div>

@@ -17,6 +17,10 @@ body, html {
   background-color: #ff04a3;
 }
 
+.pdf-component-background-color {
+  background-color: #fbfae3;
+}
+
 .nav-bar-color {
   /* background-color: rgb(255, 197, 253); */
   background-image: linear-gradient(to bottom, rgb(244, 248, 252), rgb(255, 255, 255));
@@ -26,13 +30,19 @@ main {
   margin-top: 70px;
 }
 
-.page-wrapper {
+.page-wrapper-home {
   position: relative;
   background-image: linear-gradient(to bottom, rgb(253, 230, 138), rgb(255, 249, 180)); /* Gradient from yellow to white */
   min-height: 100vh;
   margin: 10px;
 }
 
+.page-wrapper-about {
+  position: relative;
+  background-image: linear-gradient(to bottom, rgb(253, 230, 138), rgb(255, 249, 180)); /* Gradient from yellow to white */
+  min-height: 100vh;
+  margin: 10px;
+}
 
 ::selection {
   background-color: #e847f3d4;

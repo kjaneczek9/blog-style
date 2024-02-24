@@ -4,7 +4,7 @@ export default function Page() {
     <section className="flex justify-center items-center relative mb-[40]">
       <div className="flex flex-col justify-center items-center relative">
         {/* Blob */}
-        <div className="w-80 h-80 custom-color rounded-full opacity-20 absolute top-1/2 transform -translate-y-1/2 -translate-x-20"/>
+        <div className="blob w-80 h-80 absolute top-1/2 transform -translate-y-1/2 -translate-x-20"/>
         <h1 className="font-medium text-5xl mb-4 tracking-tighter pl-12">Celeste Bernstein</h1>
         <p className="pl-12">Actor. Writer. Singer. Producer.</p>
 

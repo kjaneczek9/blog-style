@@ -13,6 +13,12 @@ body, html {
   background-color: rgb(224, 212, 212);
 }
 
+.blob {
+  background-color: #ff04a3;
+  border-radius: 100%;
+  opacity: 0.2;
+}
+
 .custom-color {
   background-color: #ff04a3;
 }
@@ -22,7 +28,7 @@ body, html {
 }
 
 .gradient-div {
-  background-image: linear-gradient(to top, rgba(255, 129, 97, 0.3), rgb(255, 4, 163, 0.4));
+  background-image: linear-gradient(to top, rgba(255, 191, 175, 0.3), rgba(219, 219, 219, 0.4));
   margin-left: 30px;
   border-radius: 20px;
   border: 2px solid rgb(255, 250, 250);

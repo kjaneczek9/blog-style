@@ -10,11 +10,16 @@ body, html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* overflow-x: hidden; */
-  background-color: white;
+  background-color: rgb(224, 212, 212);
 }
 
 .custom-color {
   background-color: #ff04a3;
+}
+
+.nav-bar-color {
+  /* background-color: rgb(255, 197, 253); */
+  background-image: linear-gradient(to bottom, rgb(244, 248, 252), rgb(255, 255, 255));
 }
 
 main {

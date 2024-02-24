@@ -5,10 +5,10 @@ import {aboutMeParagraphEnglish, aboutMeParagraphFrench} from './constants';
 export default function Page() {
   return (
     <div className="page-wrapper-about">
-    <section className="flex mt-[40] mb-[20] border-12">
+    <section className="flex mt-[40] mb-[20] ml-[40] border-12">
 
         <div className="flex translate-y-20">
-          <div className="flex-col ml-5 mt-5">
+          <div className="flex-col ml-10 mt-5">
             < PdfView thumbnailPath='/english.jpg' title='English Resume' pdfPath='/english.pdf'/>
             <p className='mb-20'></p>
             < PdfView thumbnailPath='/french.jpg' title='Français CV' pdfPath='french.pdf'/>

@@ -1,3 +1,4 @@
+"use client"
 interface ComponentProps {
     thumbnailPath: string;
     title: string;

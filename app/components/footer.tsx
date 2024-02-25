@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import Socials from './social_bar';
 import Icon from './social_icon'

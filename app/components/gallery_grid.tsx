@@ -1,3 +1,4 @@
+"use client"
 import GalleryImage from './gallery_index'
 
 export default function Page() {

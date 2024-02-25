@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import Icon from './social_icon'; // assuming Icon component is in the same directory
 

@@ -12,7 +12,7 @@ const Component: React.FC<ComponentProps> = ({ thumbnailPath, title, pageLink })
       {/* Anchor tag for clickable effect */}
       <a href={pageLink} rel="noopener noreferrer" className="flex inset-0 flex items-center justify-center">
         {/* Thumbnail image with title */}
-        <div className="relative" style={{ width: '400px', height: '400px', overflow: 'hidden', borderRadius: '10px' }}>
+        <div className="relative" style={{ width: '700px', height: '300px', overflow: 'hidden', borderRadius: '10px' }}>
           <img src={thumbnailPath} alt="Thumbnail" className="rounded-lg object-cover w-full h-full" />
           <div className="absolute inset-0 flex items-center justify-center">
             {/* Circular overlay */}

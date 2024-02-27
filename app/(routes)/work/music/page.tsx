@@ -1,24 +1,16 @@
-import GalleryRow from '../../../components/gallery_row'
-
-const imagesRow1 = [
-  { thumbnailPath: '/image1.png', link: 'link1' },
-  { thumbnailPath: '/image2.png', link: 'link2' },
-  { thumbnailPath: '/image3.png', link: 'link3' }
-];
-
-const imagesRow2 = [
-  { thumbnailPath: '/image4.png', link: 'link1' },
-  { thumbnailPath: '/image1.png', link: 'link2' },
-  { thumbnailPath: '/image5.png', link: 'link3' }
-];
-
+import YouTubeVideo from "app/components/video_player";
+import SpotifyProfile from "app/components/spotify";
 
 export default function Page() {
   return (
-    <section className="flex-col justify-center items-center mt-20 mb-20">
-      <GalleryRow  images={imagesRow1}/>
-      <GalleryRow  images={imagesRow2}/>
-      <GalleryRow images={imagesRow1} />
+    <section className="page-wrapper-music">
+      <div className="flex justify-center">
+      {/* <h1 className="mt-10 text-5xl font-bold" style={{ background: 'linear-gradient(45deg, #ff0000, #0000ff)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>friends of sage</h1> */}
+      </div>
+      <div className="flex flex-col mt-5 items-center justify-center">
+        <YouTubeVideo videoId={'98NKBajbOxI'} width={600} height={300}/>
+        <SpotifyProfile profileUrl="https://open.spotify.com/embed/artist/51sGbp7whonL3N5ZliectH" />
+      </div>
     </section>
   );
 }

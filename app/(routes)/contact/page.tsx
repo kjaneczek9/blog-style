@@ -19,8 +19,6 @@ export default function Page() {
               <p style={{ wordWrap: 'break-word' }}>Phone: </p>
             </div>
         </div>
-    
-
 
     </section>
     </div>

@@ -7,9 +7,9 @@ const Footer: React.FC = () => {
     <footer className="bg-gray-800 text-white text-center py-7">
       {/* Footer content */}
       <div className="flex justify-center items-center pl-40">
-          <img src='./pinpoint.png' width={"10px"} className="mr-1"></img>
+          <img src='/pinpoint.png' width={"10px"} className="mr-1"></img>
           <p className="mr-10">Los Angeles, USA</p>
-          <img src='./pinpoint.png' width={"10px"} className="mr-1"></img>          
+          <img src='/pinpoint.png' width={"10px"} className="mr-1"></img>          
           <p className='mr-10'>Paris, France</p>
       </div>
 

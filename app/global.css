@@ -51,9 +51,23 @@ main {
   margin: 10px;
 }
 
+.page-wrapper-gallery {
+  position: relative;
+  background-image: linear-gradient(to bottom, rgb(249, 245, 227), rgb(251, 249, 225)); /* Gradient from yellow to white */
+  min-height: 100vh;
+  margin: 10px;
+}
+
 .page-wrapper-about {
   position: relative;
   background-image: linear-gradient(to bottom, rgb(253, 230, 138), rgb(255, 249, 180)); /* Gradient from yellow to white */
+  min-height: 100vh;
+  margin: 10px;
+}
+
+.page-wrapper-music {
+  position: relative;
+  background-image: linear-gradient(to bottom, rgb(240, 199, 243), rgb(242, 192, 246)); /* Gradient from yellow to white */
   min-height: 100vh;
   margin: 10px;
 }

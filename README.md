@@ -27,10 +27,10 @@ pbcopy < ~/.ssh/id_ed25519.pub
 curl -fsSL https://bun.sh/install | bash
 
 # clone repo
-git clone git@github.com:kjaneczek9/blog-style.git
+git clone git@github.com:kjaneczek9/celeste-website.git
 
 # go into project
-cd blog-style
+cd celeste-website
 
 # install dependencies needed
 bun install
